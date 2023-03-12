@@ -1,569 +1,848 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta name="description" content="CV - Cleiton Paiva" />
     <meta name="author" content="Cleiton Paiva" />
     <title>CV</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="css/style.css" rel="stylesheet" />
-</head>
+  </head>
 
-<body id="page-top">
+  <body id="page-top">
     <button class="night-mode" onclick="nightMode()">
-        <i id="icon-toggle" class="fas fa-moon"></i>
+      <i id="icon-toggle" class="fas fa-moon"></i>
     </button>
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark nav-normal fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><span class="d-block d-lg-none">Cleiton
-                Paiva</span><span class="d-none d-lg-block"><img
-                    class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/13.jpg"
-                    alt="" /></span></a><button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiências</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educação</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#showcase">Showcase</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interesses</a></li>
-            </ul>
-        </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark nav-normal fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"
+        ><span class="d-block d-lg-none">Cleiton Paiva</span
+        ><span class="d-none d-lg-block"
+          ><img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="assets/img/13.jpg"
+            alt="" /></span></a
+      ><button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experiências</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Educação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#showcase">Showcase</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Interesses</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- Page Content-->
     <div class="container-fluid p-0">
+      <!-- Home -->
+      <section class="resume-section" id="home">
+        <div class="resume-section-content">
+          <p class="label-name">Cleiton Paiva</p>
+          <p class="subheading label-occupation">Desenvolvedor de Software</p>
+          <p id="clock" style="text-align: center">00:00:00</p>
+          <div class="subheading mb-5" style="text-align: center">
+            (16) 98836-8457 ·
+            <a href="mailto:cleibp@gmail.com">cleibp@gmail.com</a>
+          </div>
+          <p class="lead mb-5">
+            Sou desenvolvedor de Software, um apaixonado por tecnologia desde os
+            meus 13 anos quando iniciei meus estudos em informática.
+            Profissional dedicado, confiável, organizado e solucionador de
+            problemas, pois faço o que eu gosto como dizia Confúcio: "Escolha um
+            trabalho que você ame e não terá que trabalhar um único dia em sua
+            vida"
+          </p>
+          <div
+            data-aos="fade-up"
+            class="social-icons"
+            style="text-align: center"
+          >
+            <a
+              class="social-icon"
+              href="https://wa.me/16988368457"
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i>
+            </a>
+            <a class="social-icon" href="https://t.me/cleibp" target="_blank"
+              ><i class="fab fa-telegram"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://www.linkedin.com/in/cleitonpaiva/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://github.com/cleibp"
+              target="_blank"
+              ><i class="fab fa-github"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://www.facebook.com/cleiton.bezerrapaiva"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://www.instagram.com/cleibp/"
+              target="_blank"
+              ><i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://twitter.com/cleibp"
+              target="_blank"
+              ><i class="fab fa-twitter"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://www.youtube.com/@cleibp"
+              target="_blank"
+              ><i class="fab fa-youtube"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://www.tiktok.com/@cleibp"
+              target="_blank"
+              ><i class="fas fa-address-card"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="http://lattes.cnpq.br/8231423108411419"
+              target="_blank"
+              ><i class="fas fa-university"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://cleibp.wixsite.com/curriculo"
+              target="_blank"
+              ><i class="fab fa-wix"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://about.me/cleitonbezerrapaiva"
+              target="_blank"
+              ><i class="fas fa-address-card"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://beacons.ai/cleibp"
+              target="_blank"
+              ><i class="fas fa-address-card"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://drive.google.com/drive/folders/1BQSNdTEdtrU2uOHV7quMvmLZdvWueK5W"
+              target="_blank"
+              ><i class="fab fa-google-drive"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://codepen.io/cleibp"
+              target="_blank"
+              ><i class="fab fa-codepen"></i>
+            </a>
+            <a
+              class="social-icon"
+              href="https://br.pinterest.com/cleibp/"
+              target="_blank"
+              ><i class="fab fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
 
-        <!-- Home -->
-        <section class="resume-section" id="home">
-            <div class="resume-section-content">
-                <p class="label-name">Cleiton Paiva </p>
-                <p class="subheading label-occupation">Desenvolvedor de Software</p>
-                <p id="clock" style="text-align: center;">00:00:00</p>
-                <div class="subheading mb-5" style="text-align: center;">(16) 98836-8457 · <a
-                        href="mailto:cleibp@gmail.com">cleibp@gmail.com</a></div>
-                <p class="lead mb-5">
-                    Sou desenvolvedor de Software, um apaixonado por tecnologia desde os meus 13 anos quando iniciei
-                    meus estudos em informática. Profissional dedicado, confiável, organizado e solucionador de
-                    problemas, pois faço o que eu gosto como dizia Confúcio:
-                    "Escolha um trabalho que você ame e não terá que trabalhar um único dia em sua vida"
-                </p>
-                <div data-aos="fade-up" class="social-icons" style="text-align: center;">
-                    <a class="social-icon" href="https://wa.me/16988368457" target="_blank"><i
-                            class="fab fa-whatsapp"></i>
-                    </a>
-                    <a class="social-icon" href="https://t.me/cleibp" target="_blank"><i class="fab fa-telegram"></i>
-                    </a>
-                    <a class="social-icon" href="https://www.linkedin.com/in/cleitonpaiva/" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a class="social-icon" href="https://github.com/cleibp" target="_blank"><i
-                            class="fab fa-github"></i>
-                    </a>
-                    <a class="social-icon" href="https://www.facebook.com/cleiton.bezerrapaiva" target="_blank"><i
-                            class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="social-icon" href="https://www.instagram.com/cleibp/" target="_blank"><i
-                            class="fab fa-instagram"></i>
-                    </a>
-                    <a class="social-icon" href="https://twitter.com/cleibp" target="_blank"><i
-                            class="fab fa-twitter"></i>
-                    </a>
-                    <a class="social-icon" href="https://www.youtube.com/@cleibp" target="_blank"><i
-                            class="fab fa-youtube"></i>
-                    </a>
-                    <a class="social-icon" href="https://www.tiktok.com/@cleibp" target="_blank"><i
-                        class="fas fa-address-card"></i>
-                    </a>
-                    <a class="social-icon" href="http://lattes.cnpq.br/8231423108411419" target="_blank"><i
-                            class="fas fa-university"></i>
-                    </a>
-                    <a class="social-icon" href="https://cleibp.wixsite.com/curriculo" target="_blank"><i
-                            class="fab fa-wix"></i>
-                    </a>
-                    <a class="social-icon" href="https://about.me/cleitonbezerrapaiva" target="_blank"><i
-                            class="fas fa-address-card"></i>
-                    </a>
-                    <a class="social-icon" href="https://beacons.ai/cleibp" target="_blank"><i
-                            class="fas fa-address-card"></i>
-                    </a>
-                    <a class="social-icon"
-                        href="https://drive.google.com/drive/folders/1BQSNdTEdtrU2uOHV7quMvmLZdvWueK5W"
-                        target="_blank"><i class="fab fa-google-drive"></i>
-                    </a>
-                    <a class="social-icon"
-                        href="https://codepen.io/cleibp"
-                        target="_blank"><i class="fab fa-codepen"></i>
-                    </a>
-                </div>
+      <!-- About-->
+      <section class="resume-section" id="about">
+        <div class="resume-section-content">
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">Sobre</h2>
+          <p class="lead mb-5" style="text-align: justify">
+            Nascido em 27/02/1986, casado, pai, natural e residente de Matão -
+            SP. Apaixonado por tecnologia, esportes e conteúdo geek. <br />
+            Pós-graduado em Rede de Computadores e Desenvolvimento de Software
+            Web com graduação em Engenharia de Computação. <br />
+            Obtive experiências profissionais como professor de informática,
+            administrador de redes, servidores, sistemas e desenvolvedor de
+            softwares (desktop, web e mobile).
+          </p>
+          <article id="viewport">
+            <section id="pyramid">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </section>
+          </article>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Experience-->
+      <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">Experiências</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Analista de Sistema</h3>
+              <div class="subheading mb-3">
+                Grupo GBI/ Hospital Israelita Albert Einstein - São Paulo / SP
+              </div>
+              <p>
+                Atuando como Tech Lead. Utilização de VPN para acessos as
+                recursos da instituição. Uso de tecnologias como CMS Strap,
+                MongoDB, API REST, Framework Koa, NodeJS, micro serviço de
+                autenticação, framework React e prototipação no Figma. Aplicação
+                On-premises OpenShift com consumo de fila RabbitMQ e REDIS para
+                cacheamento endpoints. Gerenciamento das aplicações via Data Dog
+                e console openshift Red Hat. Pipeline estruturada com docker e
+                com análise de Fortify e SonarQube Integração com Elasticsearch
+                e apoio da ferramenta Kibana para administração do mesmo.
+                Utilização de recursos Azure e Azure Devops. Iniciativa de
+                desenvolvimento com algumas demandas SAP/ABAP e SAPUI5. SQUAD
+                pautada na Abordagem Ágil Scrum.
+              </p>
             </div>
-        </section>
-        <hr class="m-0" />
-
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h2 class="mb-5 cssanimation hu__hu__ sequence">Sobre</h2>
-                <p class="lead mb-5" style="text-align: justify;">
-                    Nascido em 27/02/1986, casado, pai, natural e residente de Matão - SP. Apaixonado por tecnologia,
-                    esportes e conteúdo geek. <br>
-                    Pós-graduado em Rede de Computadores e Desenvolvimento de Software Web com graduação em Engenharia
-                    de Computação. <br>
-                    Obtive experiências profissionais como professor de informática, administrador de redes, servidores,
-                    sistemas e desenvolvedor de softwares
-                    (desktop, web e mobile).
-                </p>
-                <article id="viewport">
-                    <section id="pyramid">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </section>
-                </article>
+            <div class="flex-shrink-0">
+              <span class="text-primary">​AGO/2021</span>
             </div>
-        </section>
-        <hr class="m-0" />
-
-        <!-- Experience-->
-        <section class="resume-section" id="experience">
-            <div class="resume-section-content">
-                <h2 class="mb-5 cssanimation hu__hu__ sequence">Experiências</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Analista de Sistema</h3>
-                        <div class="subheading mb-3">Grupo GBI/ Hospital Israelita Albert Einstein - São Paulo / SP
-                        </div>
-                        <p>
-                            Atuando como Tech Lead.
-                            Utilização de VPN para acessos as recursos da instituição.
-                            Uso de tecnologias como CMS Strap, MongoDB, API REST, Framework Koa, NodeJS, micro serviço
-                            de autenticação, framework React e prototipação no Figma.
-                            Aplicação On-premises OpenShift com consumo de fila RabbitMQ e REDIS para cacheamento
-                            endpoints.
-                            Gerenciamento das aplicações via Data Dog e console openshift Red Hat.
-                            Pipeline estruturada com docker e com análise de Fortify e SonarQube
-                            Integração com Elasticsearch e apoio da ferramenta Kibana para administração do mesmo.
-                            Utilização de recursos Azure e Azure Devops.
-                            Iniciativa de desenvolvimento com algumas demandas SAP/ABAP e SAPUI5.
-                            SQUAD pautada na Abordagem Ágil Scrum.
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">​AGO/2021</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Analista de Sistema</h3>
-                        <div class="subheading mb-3">BRQ/BTG Pactual- São Paulo / SP</div>
-                        <p>
-                            Regime de Alocação (home office) para o Banco BTG Pactual:
-                            Recebi acesso inicialmente através por meio de VDI/Citrix e posteriormente VPN.
-                            Trabalhei na produção de Back-end, API REST em Node e Python. Preparei cronjob com Node,
-                            Python e Shell Script, serviços e libs internas a fim de calcular receitas e comissões.
-                            Consumi filas IBM MQ/RabbitMQ/kafka/SQS e realizei o parser das mensagens (XML/JSON).
-                            Produzi/Atualizei consultas (selects, inserts, updates, deletes, procedures e views) em
-                            banco de Dados MySQL, SQLServer, Oracle e MongoDB. Utilizei ferramentas como Jenkins, Nexus,
-                            Docker, Docker-compose, Rancher, GIT e GitHub corporativo;
-                            Acessei serviços de Cloud AWS (EC2, S3, Cloudwatch, Lambda, DynamoDB e RDS). Monitoramento,
-                            avisos e controle dos clusters. Funções Lambda para alguns cálculos de alguns tipos de
-                            receitas.
-                            No que tange ao Front-End realizei pequenos trabalhos em aplicação em framework Angular.
-                            Cerimônias pautadas em metodologia Ágil.
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">AGO/2020 - JUL/2021</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Analista de TI</h3>
-                        <div class="subheading mb-3">Agrofito - Matão / SP</div>
-                        <p>
-                            Administração/Manutenção de servidores, redes, softwares gerais, gerenciamento de backups.
-                            Utilização de sistema ERP TOTVS RM, CGI e banco de dados Microsoft SQL Server.
-                            Reparos em códigos legados no sistema CGI em Delphi e migração para nova plataforma em C#.
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">​JUL/2020 - AGO/2020</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Engenheiro de Computação</h3>
-                        <div class="subheading mb-3">Solution Softwares LTDA - Matão / SP</div>
-                        <p>
-                            Regime interno:<br>
-                            Manuseio de equipamento pc windows evoluindo para Linux e posteriormente macOS.
-                            Análise, especificações, levantamento, desenho funcional, desenvolvimento, testes
-                            integrados, homologação e manutenção corretiva e preventiva
-                            em solução interna de Sistema administrativo em Framework CakePHP com customização de HTML,
-                            CSS e Javascrit.
-                            Reunião com cliente para especificação de correção no Sistema GeoPlotter que resultou na
-                            melhoria do codigo legado em QT/C++ e migração de banco de dados MySQL para PostegreSQL.
-                            Melhorias como Upgrade em site institucional baseado em Joomla, evolução de controle de
-                            versão SVN Subversion para GIT com utilização de Cliente GitLab, acesso a plataforma de
-                            nuvens como locaweb, Digital Ocean e AWS e desenvolvimento de ferramenta de automatização
-                            interna em Python.
-
-                            Prototipações realizadas com o Adobe XD.
-                            POC e estudos de eficiência com ferramentas como Gulp, Grunt, Bower, pré processadores como
-                            Pug, Stylus, Sass, Less, CoffeeScript e Typescript, frameworks JS como Angular, VueJS e
-                            ReatJS, Frameworks Python como Flask e Django, Frameworks Vuetify e Quasar. Desenvolvimento
-                            mobile swift, android, React Native e Nativescript.
-
-
-                            <br><br>
-                            Regime de Alocação para os investidores Ballad, GIRA e LingoAPP: <br>
-                            Reunião com cliente e todo trâmite de coleta de informações.
-                            Desenvolvimento de backend em node, parser-serve, expressJS e MongoDB.
-                            Desenvolvimento de frontend em Angular e Quaser Framework baseado em VueJS
-                            Auxílio e testes em aplicação IOS Swift e Android para o aplicativo GIRA
-                            Utilização de serviços/nuvens como Digital Ocean, AWS, S3, Firebase, Google Analytics e
-                            Mailgun.
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Fev 2014 - Jan 2020</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Administrador de Sistemas</h3>
-                        <div class="subheading mb-3">Libell Eletrodomésticos - Matão / SP</div>
-                        <p>Colaborei com o monitoramento, a manutenção de computadores, servidores, rede cabeada, sem
-                            fio, telefônica e a administração de ERP (SECTRA) e sistemas como Rastreador de Caminhões
-                            (Sascar), Controle de Ponto Eletrônico (Hora Sol) e Balanço Contábil (Auditec), além do site
-                            (HTML, CSS, Javascript, JQuery e PHP) e a loja virtual (testes com Joomla, WordPress e
-                            Magento) especializada em reposição de peças para reparos nos produtos fabricados.
-                            Fornecimento de relatórios/planilhas customizados em VBA para os gestores.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Set 2011 - Nov 2013</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Professor de Informática</h3>
-                        <div class="subheading mb-3">Prefeitura Municipal de Matão / SP</div>
-                        <p>Ministrei aulas teóricas e práticas das linguagens HTML, CSS, PHP e Java, ferramentas de
-                            Criação e Edição de Vídeo no Movie Maker, Sony Vegas e Adobe Premiere, Banco de Dados e
-                            Redes de Computadores para alunos de curso técnico.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Jan 2012 - Dez 2012</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Instrutor de Informatica</h3>
-                        <div class="subheading mb-3">BRINGUP - Matão / SP</div>
-                        <p>Ensino de Informática para crianças, jovens e adultos em módulo básico com Sistema
-                            Operacional Windows, Pacote Office e Internet) e módulo intermediário com (Criação de Sites
-                            em HTML e no antigo Microsoft Front Page, Edição de fotos com Photoshop e Corel Photo Paint
-                            e manipulação de Vetores com o Corel Draw.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Ab 2010 - Set 2011</span></div>
-                </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Analista de Sistema</h3>
+              <div class="subheading mb-3">BRQ/BTG Pactual- São Paulo / SP</div>
+              <p>
+                Regime de Alocação (home office) para o Banco BTG Pactual:
+                Recebi acesso inicialmente através por meio de VDI/Citrix e
+                posteriormente VPN. Trabalhei na produção de Back-end, API REST
+                em Node e Python. Preparei cronjob com Node, Python e Shell
+                Script, serviços e libs internas a fim de calcular receitas e
+                comissões. Consumi filas IBM MQ/RabbitMQ/kafka/SQS e realizei o
+                parser das mensagens (XML/JSON). Produzi/Atualizei consultas
+                (selects, inserts, updates, deletes, procedures e views) em
+                banco de Dados MySQL, SQLServer, Oracle e MongoDB. Utilizei
+                ferramentas como Jenkins, Nexus, Docker, Docker-compose,
+                Rancher, GIT e GitHub corporativo; Acessei serviços de Cloud AWS
+                (EC2, S3, Cloudwatch, Lambda, DynamoDB e RDS). Monitoramento,
+                avisos e controle dos clusters. Funções Lambda para alguns
+                cálculos de alguns tipos de receitas. No que tange ao Front-End
+                realizei pequenos trabalhos em aplicação em framework Angular.
+                Cerimônias pautadas em metodologia Ágil.
+              </p>
             </div>
-        </section>
-        <hr class="m-0" />
-
-        <!-- Education-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5 cssanimation hu__hu__ sequence">Educação</h2>
-                <p><a href="https://drive.google.com/drive/folders/1BQSNdTEdtrU2uOHV7quMvmLZdvWueK5W" target="_blank">Visualize os meus certificados aqui. </a></p>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Universidade Federal de São Carlos</h3>
-                        <div class="subheading mb-3">Pós graduação em Redes de Computadores</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Dez 2016</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Universidade Federal de São Carlos</h3>
-                        <div class="subheading mb-3">Pós graduação em Desenvolvimento de Software Web</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Dez 2014</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Academia Java</h3>
-                        <div class="subheading mb-3">Center Cursos - Ribeirão Preto / SP</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Dez 2012</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Oracle</h3>
-                        <div class="subheading mb-3">IFSP - São Carlos / SP</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Dez 2012</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Faculdades Logatti de Araraquara</h3>
-                        <div class="subheading mb-3">Engenharia de Computação</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Dez 2011</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">.NET</h3>
-                        <div class="subheading mb-3">Planseq - Araraquara / SP</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Dez 2010</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Abap</h3>
-                        <div class="subheading mb-3">Planseq - Araraquara / SP</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Jun 2010</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Técnico de Eletrotécnica</h3>
-                        <div class="subheading mb-3">Centro Paula Souza - Matão / SP</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Jun 2004</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Técnico de Eletroeletrônica</h3>
-                        <div class="subheading mb-3">Centro Paula Souza - Matão / SP</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Dez 2003</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Técnico de Informática</h3>
-                        <div class="subheading mb-3">Centro Paula Souza - Matão / SP</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Dez 2003</span></div>
-                </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">AGO/2020 - JUL/2021</span>
             </div>
-        </section>
-        <hr class="m-0" />
-
-        <!-- Skills-->
-        <section class="resume-section" id="skills">
-            <div class="resume-section-content">
-                <h2 class="mb-5 cssanimation hu__hu__ sequence">Habilidades</h2>
-                <div class="subheading mb-3">Linguagens & Ferramentas</div>
-                <section class="container">
-                    <div class="circulo">
-                        <img src="./assets/img/html.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/css3.jpeg" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/js.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/jquery.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/jqueryui.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/bootstrap.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/foundation.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/materialdesign.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/mysql.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/sqlite.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/postgresql.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/mongodb.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/node.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/npm.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/yarn.jpg" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/express.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/gulp.jpg" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/grunt.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/webpack.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/babel.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/pug.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/stylus.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/sass.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/less.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/typescript.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/coffeescript.png" alt="CoffeeScript" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/haml.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/markdown.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/angular.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/vue.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/react.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/vuetify.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/quasar.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/docker.png" />
-                    </div>
-
-                    <div class="circulo">
-                        <img src="./assets/img/git.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/gitlab.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/aws.png" />
-                    </div>
-                    <div class="circulo">
-                        <img src="./assets/img/digitalocean.png" />
-                    </div>
-
-                </section>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Analista de TI</h3>
+              <div class="subheading mb-3">Agrofito - Matão / SP</div>
+              <p>
+                Administração/Manutenção de servidores, redes, softwares gerais,
+                gerenciamento de backups. Utilização de sistema ERP TOTVS RM,
+                CGI e banco de dados Microsoft SQL Server. Reparos em códigos
+                legados no sistema CGI em Delphi e migração para nova plataforma
+                em C#.
+              </p>
             </div>
-        </section>
-        <hr class="m-0" />
-
-        <!-- Portfolio-->
-        <section class="resume-section" id="showcase">
-            <div class="resume-section-content">
-                <h2 class="mb-5 cssanimation hu__hu__ sequence"> Showcase</h2>
-                <p class="mb-5"> 
-                    Segue uma amostra simplificada de atividades que desenvolvi ao longo desses anos de trabalho. <br />
-                    Visando não expor nenhum empregador anterior e sim as minhas experiências com as diversas tecnologias<br /> 
-                </p>
-
-                <section class="container">
-                    <!--
-                        JOOMLA
-                        WORDPRESS
-                        MOODLE
-                        MAGENTO
-                        BLOGGER
-                        CakePHP
-                    -->
-                    <div class="circulo">
-                        <a href="https://cleibp.wixsite.com/curriculo"><img src="./assets/img/wix.jpg" /></a>
-                    </div>
-                    <div class="circulo">
-                        <a href="https://cleibp.github.io/cv/"><img src="./assets/img/pages.jpg" /></a>
-                    </div>
-                    <div class="circulo">
-                        <a href="http://cleibp.surge.sh/"><img src="./assets/img/surge.jpg" /></a>
-                    </div>
-                    <div class="circulo">
-                        <a href="https://social-networks-three.vercel.app/"><img src="./assets/img/vercel.png" /></a>
-                    </div>
-                    <div class="circulo">
-                        <a href="https://moonlit-torte-7bb89d.netlify.app/"><img src="./assets/img/netlify.png" /></a>
-                    </div>
-                    <div class="circulo">
-                        <a href="https://cleibpportfolio.web.app"><img src="./assets/img/firebase.png" /></a>
-                    </div>
-                    <div class="circulo">
-                        <a href="https://cleitonpaiva.my.canva.site/"><img src="./assets/img/canva.png" /></a>
-                    </div>
-                </section>
-
-
+            <div class="flex-shrink-0">
+              <span class="text-primary">​JUL/2020 - AGO/2020</span>
             </div>
-        </section>
-        <hr class="m-0" />
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Engenheiro de Computação</h3>
+              <div class="subheading mb-3">
+                Solution Softwares LTDA - Matão / SP
+              </div>
+              <p>
+                Regime interno:<br />
+                Manuseio de equipamento pc windows evoluindo para Linux e
+                posteriormente macOS. Análise, especificações, levantamento,
+                desenho funcional, desenvolvimento, testes integrados,
+                homologação e manutenção corretiva e preventiva em solução
+                interna de Sistema administrativo em Framework CakePHP com
+                customização de HTML, CSS e Javascrit. Reunião com cliente para
+                especificação de correção no Sistema GeoPlotter que resultou na
+                melhoria do codigo legado em QT/C++ e migração de banco de dados
+                MySQL para PostegreSQL. Melhorias como Upgrade em site
+                institucional baseado em Joomla, evolução de controle de versão
+                SVN Subversion para GIT com utilização de Cliente GitLab, acesso
+                a plataforma de nuvens como locaweb, Digital Ocean e AWS e
+                desenvolvimento de ferramenta de automatização interna em
+                Python. Prototipações realizadas com o Adobe XD. POC e estudos
+                de eficiência com ferramentas como Gulp, Grunt, Bower, pré
+                processadores como Pug, Stylus, Sass, Less, CoffeeScript e
+                Typescript, frameworks JS como Angular, VueJS e ReatJS,
+                Frameworks Python como Flask e Django, Frameworks Vuetify e
+                Quasar. Desenvolvimento mobile swift, android, React Native e
+                Nativescript.
 
-        <!-- Interests-->
-        <section class="resume-section" id="interests">
-            <div class="resume-section-content">
-                <h2 class="mb-5 cssanimation hu__hu__ sequence"> Interesses</h2>
-                <ul>
-                    <li>​Gosto de ler bons livros;</li>
-                    <li>Ouço vários estilos de músicas;</li>
-                    <li>Vejo filmes e seriados variados;</li>
-                    <li>Fã de animes em especial Tokusatsu;</li>
-                    <li>Doador de orgãos e sangue;</li>
-                    <li>Voluntário do processo eleitoral;</li>
-                    <li>Não faço distinção de raça, cor, religião, identidade de gênero; </li>
-                    <li>Orientação sexual, politica, nacionalidade, deficiência ou idade.</li>
-                </ul>
-
-                <h2 class="mb-5 cssanimation hu__hu__ sequence"> CITAÇÃO FAVORITA </h2>
-                <p class="mb-0">
-                    "Não sou o que eu deveria ser. <br>
-                    Não sou o que eu queria ser. <br>
-                    Não sou o que eu irei ser. <br>
-                    Mas, graças a Deus, não sou o que eu era." - Martin Luther King
-                </p>
-                <h2 class="mb-5 cssanimation hu__hu__ sequence"> ÚLTIMO PROJETO </h2>
-                <p class="mb-0">
-                    "Gostei muito de ter tido a oportunidade de atuar no projeto Sou Einstein do Hospital Israelita
-                    Albert Einstein."
-                </p>
+                <br /><br />
+                Regime de Alocação para os investidores Ballad, GIRA e LingoAPP:
+                <br />
+                Reunião com cliente e todo trâmite de coleta de informações.
+                Desenvolvimento de backend em node, parser-serve, expressJS e
+                MongoDB. Desenvolvimento de frontend em Angular e Quaser
+                Framework baseado em VueJS Auxílio e testes em aplicação IOS
+                Swift e Android para o aplicativo GIRA Utilização de
+                serviços/nuvens como Digital Ocean, AWS, S3, Firebase, Google
+                Analytics e Mailgun.
+              </p>
             </div>
-        </section>
-        <hr class="m-0" />
+            <div class="flex-shrink-0">
+              <span class="text-primary">Fev 2014 - Jan 2020</span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Administrador de Sistemas</h3>
+              <div class="subheading mb-3">
+                Libell Eletrodomésticos - Matão / SP
+              </div>
+              <p>
+                Colaborei com o monitoramento, a manutenção de computadores,
+                servidores, rede cabeada, sem fio, telefônica e a administração
+                de ERP (SECTRA) e sistemas como Rastreador de Caminhões
+                (Sascar), Controle de Ponto Eletrônico (Hora Sol) e Balanço
+                Contábil (Auditec), além do site (HTML, CSS, Javascript, JQuery
+                e PHP) e a loja virtual (testes com Joomla, WordPress e Magento)
+                especializada em reposição de peças para reparos nos produtos
+                fabricados. Fornecimento de relatórios/planilhas customizados em
+                VBA para os gestores.
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Set 2011 - Nov 2013</span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Professor de Informática</h3>
+              <div class="subheading mb-3">
+                Prefeitura Municipal de Matão / SP
+              </div>
+              <p>
+                Ministrei aulas teóricas e práticas das linguagens HTML, CSS,
+                PHP e Java, ferramentas de Criação e Edição de Vídeo no Movie
+                Maker, Sony Vegas e Adobe Premiere, Banco de Dados e Redes de
+                Computadores para alunos de curso técnico.
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Jan 2012 - Dez 2012</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Instrutor de Informatica</h3>
+              <div class="subheading mb-3">BRINGUP - Matão / SP</div>
+              <p>
+                Ensino de Informática para crianças, jovens e adultos em módulo
+                básico com Sistema Operacional Windows, Pacote Office e
+                Internet) e módulo intermediário com (Criação de Sites em HTML e
+                no antigo Microsoft Front Page, Edição de fotos com Photoshop e
+                Corel Photo Paint e manipulação de Vetores com o Corel Draw.
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Ab 2010 - Set 2011</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Education-->
+      <section class="resume-section" id="education">
+        <div class="resume-section-content">
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">Educação</h2>
+          <p>
+            <a
+              href="https://drive.google.com/drive/folders/1BQSNdTEdtrU2uOHV7quMvmLZdvWueK5W"
+              target="_blank"
+              >Visualize os meus certificados aqui.
+            </a>
+          </p>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Universidade Federal de São Carlos</h3>
+              <div class="subheading mb-3">
+                Pós graduação em Redes de Computadores
+              </div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dez 2016</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Universidade Federal de São Carlos</h3>
+              <div class="subheading mb-3">
+                Pós graduação em Desenvolvimento de Software Web
+              </div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dez 2014</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Academia Java</h3>
+              <div class="subheading mb-3">
+                Center Cursos - Ribeirão Preto / SP
+              </div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dez 2012</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Oracle</h3>
+              <div class="subheading mb-3">IFSP - São Carlos / SP</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dez 2012</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Faculdades Logatti de Araraquara</h3>
+              <div class="subheading mb-3">Engenharia de Computação</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dez 2011</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">.NET</h3>
+              <div class="subheading mb-3">Planseq - Araraquara / SP</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dez 2010</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Abap</h3>
+              <div class="subheading mb-3">Planseq - Araraquara / SP</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Jun 2010</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Técnico de Eletrotécnica</h3>
+              <div class="subheading mb-3">Centro Paula Souza - Matão / SP</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Jun 2004</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Técnico de Eletroeletrônica</h3>
+              <div class="subheading mb-3">Centro Paula Souza - Matão / SP</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dez 2003</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Técnico de Informática</h3>
+              <div class="subheading mb-3">Centro Paula Souza - Matão / SP</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dez 2003</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Skills-->
+      <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">Habilidades</h2>
+          <div class="subheading mb-3">Linguagens & Ferramentas</div>
+          <section class="container">
+            <div class="circulo">
+              <img src="./assets/img/html.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/css3.jpeg" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/js.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/jquery.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/jqueryui.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/bootstrap.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/foundation.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/materialdesign.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/mysql.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/sqlite.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/postgresql.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/mongodb.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/node.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/npm.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/yarn.jpg" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/express.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/gulp.jpg" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/grunt.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/webpack.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/babel.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/pug.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/stylus.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/sass.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/less.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/typescript.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/coffeescript.png" alt="CoffeeScript" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/haml.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/markdown.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/angular.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/vue.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/react.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/vuetify.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/quasar.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/docker.png" />
+            </div>
+
+            <div class="circulo">
+              <img src="./assets/img/git.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/gitlab.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/aws.png" />
+            </div>
+            <div class="circulo">
+              <img src="./assets/img/digitalocean.png" />
+            </div>
+          </section>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Portfolio-->
+      <section class="resume-section" id="showcase">
+        <div class="resume-section-content">
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">Showcase</h2>
+          <p class="mb-5">
+            Segue uma amostra simplificada de atividades que desenvolvi ao longo
+            desses anos de trabalho. <br />
+            Visando não expor nenhum empregador anterior e sim as minhas
+            experiências com as diversas tecnologias<br />
+          </p>
+
+          <section class="container">
+
+            <!-- No-code -->
+            <div class="circulo">
+              <a href="https://cleibp.wixsite.com/curriculo"
+                ><img src="./assets/img/wix.jpg"
+              /></a>
+            </div>
+
+            <div class="circulo">
+              <a href="https://sites.google.com/view/cleibp/home"
+                ><img src="./assets/img/googlesites.png"
+              /></a>
+            </div>
+         
+            <div class="circulo">
+              <a href="https://cleitonpaiva.my.canva.site/"
+                ><img src="./assets/img/canva.png"
+              /></a>
+            </div>
+
+            <div class="circulo">
+              <a href="cleibp.wordpress.com"
+                ><img src="./assets/img/wordpress.png"
+              /></a>
+            </div>
+         
+            <div class="circulo">
+              <a href="https://cleibp.blogspot.com/"
+                ><img src="./assets/img/blogger.png"
+              /></a>
+            </div>
+            
+
+            <div class="circulo">
+              <a href="https://portfoliocleibp.bubbleapps.io/version-test"
+                ><img src="./assets/img/bubbleio.png"
+              /></a>
+            </div>
+
+            <div class="circulo">
+              <a href="https://640229ec24c82.site123.me/"
+                ><img src="./assets/img/site123.png"
+              /></a>
+            </div>
+
+            <div class="circulo">
+              <a href="https://cleibp.jimdosite.com/"
+                ><img src="./assets/img/jimdo.png"
+              /></a>
+            </div>
+
+            <div class="circulo">
+              <a href="https://cleibp.weebly.com"
+                ><img src="./assets/img/weebly.png"
+              /></a>
+            </div>
+
+            <!-- Low code -->
+            <!-- <div class="circulo">
+              <a href="https://cleibp.weebly.com"
+                ><img src="./assets/img/weebly.png"
+              /></a>
+            </div> -->
+
+            <!--
+                JOOMLA
+                WORDPRESS
+                MOODLE
+                MAGENTO
+                PINGENDO
+            -->
+
+            <!-- Code -->
+            <div class="circulo">
+              <a href="https://cleibp.github.io/cv/"
+                ><img src="./assets/img/pages.jpg"
+              /></a>
+            </div>
+            <div class="circulo">
+              <a href="http://cleibp.surge.sh/"
+                ><img src="./assets/img/surge.jpg"
+              /></a>
+            </div>
+            <div class="circulo">
+              <a href="https://social-networks-three.vercel.app/"
+                ><img src="./assets/img/vercel.png"
+              /></a>
+            </div>
+            <div class="circulo">
+              <a href="https://moonlit-torte-7bb89d.netlify.app/"
+                ><img src="./assets/img/netlify.png"
+              /></a>
+            </div>
+            <div class="circulo">
+              <a href="https://cleibpportfolio.web.app"
+                ><img src="./assets/img/firebase.png"
+              /></a>
+            </div>
+
+            <!--
+                CakePHP
+                Codeigniter
+                Laravel
+                KML
+            -->
+
+          </section>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Interests-->
+      <section class="resume-section" id="interests">
+        <div class="resume-section-content">
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">Interesses</h2>
+          <ul>
+            <li>​Gosto de ler bons livros;</li>
+            <li>Ouço vários estilos de músicas;</li>
+            <li>Vejo filmes e seriados variados;</li>
+            <li>Fã de animes em especial Tokusatsu;</li>
+            <li>Doador de orgãos e sangue;</li>
+            <li>Voluntário do processo eleitoral;</li>
+            <li>
+              Não faço distinção de raça, cor, religião, identidade de gênero;
+            </li>
+            <li>
+              Orientação sexual, politica, nacionalidade, deficiência ou idade.
+            </li>
+          </ul>
+
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">CITAÇÃO FAVORITA</h2>
+          <p class="mb-0">
+            "Não sou o que eu deveria ser. <br />
+            Não sou o que eu queria ser. <br />
+            Não sou o que eu irei ser. <br />
+            Mas, graças a Deus, não sou o que eu era." - Martin Luther King
+          </p>
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">ÚLTIMO PROJETO</h2>
+          <p class="mb-0">
+            "Gostei muito de ter tido a oportunidade de atuar no projeto Sou
+            Einstein do Hospital Israelita Albert Einstein."
+          </p>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Contact-->
+      <section class="resume-section" id="contact">
+        <div class="resume-section-content">
+          <h2 class="mb-5 cssanimation hu__hu__ sequence">Contato</h2>
+          <div class="react-form-container"></div>
+        </div>
+      </section>
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -573,14 +852,185 @@
     <!-- Core theme JS-->
     <script src="js/script.js"></script>
 
-
-    <script type="text/javascript"
-        src=" https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+    <script
+      type="text/javascript"
+      src=" https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"
+    ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- Customize JS-->
     <script src="js/libraries.js"></script>
-</body>
 
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+      const reactFormContainer = document.querySelector(
+        ".react-form-container"
+      );
 
+      class ReactFormLabel extends React.Component {
+        constructor(props) {
+          super(props);
+        }
+
+        render() {
+          return <label htmlFor={this.props.htmlFor}>{this.props.title}</label>;
+        }
+      }
+
+      class ReactForm extends React.Component {
+        constructor(props) {
+          super(props);
+
+          this.state = {
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          };
+
+          this.handleChange = this.handleChange.bind(this);
+          this.handleSubmit = this.handleSubmit.bind(this);
+        }
+
+        handleChange = (e) => {
+          let newState = {};
+
+          newState[e.target.name] = e.target.value;
+
+          this.setState(newState);
+        };
+
+        handleSubmit = (e, message) => {
+          e.preventDefault();
+
+          let formData = {
+            formSender: this.state.name,
+            formEmail: this.state.email,
+            formSubject: this.state.subject,
+            formMessage: this.state.message,
+          };
+
+          if (
+            formData.formSender.length < 1 ||
+            formData.formEmail.length < 1 ||
+            formData.formSubject.length < 1 ||
+            formData.formMessage.length < 1
+          ) {
+            return false;
+          }
+
+          $.ajax({
+            url: "mailto:cleibp@gmail.com",
+            dataType: "json",
+            type: "POST",
+            data: formData,
+            success: function (data) {
+              if (
+                confirm("Thank you for your message. Can I erase the form?")
+              ) {
+                this.setState({
+                  firstName: "",
+                  lastName: "",
+                  email: "",
+                  subject: "",
+                  message: "",
+                });
+              }
+            },
+            error: function (xhr, status, err) {
+              console.error(status, err.toString());
+              alert("There was some problem with sending your message.");
+            },
+          });
+
+          this.setState({
+            firstName: "",
+            lastName: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+        };
+
+        render() {
+          return (
+            <form className="react-form" onSubmit={this.handleSubmit}>
+              <fieldset className="form-group">
+                <ReactFormLabel htmlFor="formName" title="Nome:" />
+
+                <input
+                  id="formName"
+                  className="form-input"
+                  name="name"
+                  type="text"
+                  required
+                  onChange={this.handleChange}
+                  value={this.state.name}
+                />
+              </fieldset>
+
+              <fieldset className="form-group">
+                <ReactFormLabel htmlFor="formEmail" title="Email:" />
+
+                <input
+                  id="formEmail"
+                  className="form-input"
+                  name="email"
+                  type="email"
+                  required
+                  onChange={this.handleChange}
+                  value={this.state.email}
+                />
+              </fieldset>
+
+              <fieldset className="form-group">
+                <ReactFormLabel htmlFor="formSubject" title="Assunto:" />
+
+                <input
+                  id="formSubject"
+                  className="form-input"
+                  name="subject"
+                  type="text"
+                  required
+                  onChange={this.handleChange}
+                  value={this.state.subject}
+                />
+              </fieldset>
+
+              <fieldset className="form-group">
+                <ReactFormLabel htmlFor="formMessage" title="Mensagem:" />
+
+                <textarea
+                  id="formMessage"
+                  className="form-textarea"
+                  name="message"
+                  required
+                  onChange={this.handleChange}
+                ></textarea>
+              </fieldset>
+
+              <div className="form-group">
+                <input
+                  id="formButton"
+                  className="btn"
+                  type="submit"
+                  placeholder="Send message"
+                />
+              </div>
+            </form>
+          );
+        }
+      }
+
+      ReactDOM.render(<ReactForm />, reactFormContainer);
+    </script>
+  </body>
 </html>
