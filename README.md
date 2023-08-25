@@ -29,16 +29,16 @@ Modelo de portfólio pessoal
 └── js
     ├── script.js
     ├── libraries.js
-    ├── blast.min.js
+    └── blast.min.js
 └── css
-    ├── style.css
+    └──  style.css
 └── fonts
     ├── Dulcelin.otf
-    ├── READ ME.txt
+    └── READ ME.txt
 └── assets
     ├── files
 	└── curriculo.pdf
-    ├── img
+    └──  img
 	└── 13.png
 	└── angular.png
 	└── aws.png
