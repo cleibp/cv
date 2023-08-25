@@ -26,19 +26,19 @@ Modelo de portfólio pessoal
 .
 ├── README.md
 ├── index.html
-└── js
-    ├── script.js
-    ├── libraries.js
-    └── blast.min.js
-└── css
-    └──  style.css
-└── fonts
-    ├── Dulcelin.otf
-    └── READ ME.txt
+├── js
+│   ├── script.js
+│   ├── libraries.js
+│   └── blast.min.js
+├── css
+│   └──  style.css
+├── fonts
+│   ├── Dulcelin.otf
+│   └── READ ME.txt
 └── assets
     ├── files
-	└── curriculo.pdf
-    └──  img
+    │	└── curriculo.pdf
+    └── img
 	└── 13.png
 	└── angular.png
 	└── aws.png
